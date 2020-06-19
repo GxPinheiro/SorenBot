@@ -11,9 +11,6 @@ bot.on(/youtube.com/, (msg) => {
 bot.on(/(boku\s)?hero academia*/, (msg) => {
     return msg.reply.text ('Shonen Generico', { asReply: true });
 });
-<<<<<<< HEAD
- 
-=======
 
 bot.on(/parabéns/, (msg) => {
     return msg.reply.text ('Obrigado!!', { asReply: true });
@@ -23,6 +20,5 @@ bot.on(/parabéns/, (msg) => {
 //     return setChatTitle.();
 // });
 
->>>>>>> 5caece6d15ed76bce6337b555238485e01b95c40
 bot.connect();
 bot.start();
