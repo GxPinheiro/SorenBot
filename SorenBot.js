@@ -1,7 +1,8 @@
 //Soren Bot API
 const TeleBot = require('telebot');
 
-const bot = new TeleBot('413868618:AAGU_Ua75t9jqa0RxeUl2sDB4DuGuuUx-RE');
+const telekey = process.env.TELEBOT_KEY;
+const bot = new TeleBot('telekey');
 
 
 bot.on(/youtube.com/, (msg) => {
