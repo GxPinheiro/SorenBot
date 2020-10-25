@@ -1,0 +1,23 @@
+{
+  "name": "sorenbot",
+  "version": "1.0.0",
+  "description": "Soren Bot for Telegram",
+  "main": "SorenBot.js",
+  "dependencies": {
+    "telebot": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GxPinheiro/SorenBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GxPinheiro/SorenBot/issues"
+  },
+  "homepage": "https://github.com/GxPinheiro/SorenBot#readme"
+}
