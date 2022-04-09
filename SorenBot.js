@@ -18,7 +18,7 @@ bot.on(/parabéns/, (msg) => {
 });
 
 bot.on(/banana/, (msg) => {
-    return msg.reply.text ('hahaha banana!!', { asReply: true });
+    return msg.reply.text ('hahaha sdjhudshfujahjf!!', { asReply: true });
 });
 
 
