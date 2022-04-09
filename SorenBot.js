@@ -17,6 +17,11 @@ bot.on(/parabéns/, (msg) => {
     return msg.reply.text ('Obrigado!!', { asReply: true });
 });
 
+bot.on(/banana/, (msg) => {
+    return msg.reply.text ('hahaha banana!!', { asReply: true });
+});
+
+
 // bot.on('newChatTitle', (setChatTitle) => {
 //     return setChatTitle.();
 // });
